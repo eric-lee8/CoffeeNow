@@ -1,0 +1,13 @@
+{
+    "Blenz":[
+        { "product_name": "Black Coffee", "unit_cost": "$10.47" },
+        { "product_name": "French Vanilla", "unit_cost": "$8.74" },
+        { "product_name": "Green Coffee", "unit_cost": "$20.53" }
+    ],
+    "StarBucks":[
+        { "product_name": "Black Coffee", "unit_cost": "$10.47" },
+        { "product_name": "French Vanilla", "unit_cost": "$8.74" },
+        { "product_name": "Green Coffee", "unit_cost": "$20.53" }
+    ]
+
+}
