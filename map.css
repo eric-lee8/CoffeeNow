@@ -1,11 +1,49 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 /* Always set the map height explicitly to define the size of the div
-       * element that contains the map. */
-       #map {
-        height: 40%;
-      }
-      /* Optional: Makes the sample page fill the window. */
-      html, body {
-        height: 100%;
-        margin: 0;
-        padding: 0;
-      }
+* element that contains the map. */
+#map {
+  height: 100%;
+}
+
+/* Optional: Makes the sample page fill the window. */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  width:80%;
+  margin:auto;
+}
+
+.presets{
+  display:grid;
+  grid-template-columns:repeat(3, 1fr);
+}
+
+#preset{
+  padding:10px;
+  background-color: #C4C4C4;
+  border:none;
+  cursor: pointer;
+}
+
+#coffee-now{
+  width:100px;
+  height
+  border:none;
+  border-radius: 50%;
+}
+
+
+
+
