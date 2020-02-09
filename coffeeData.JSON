@@ -1,13 +1,102 @@
 {
     "Blenz":[
-        { "product_name": "Black Coffee", "unit_cost": "$10.47" },
-        { "product_name": "French Vanilla", "unit_cost": "$8.74" },
-        { "product_name": "Green Coffee", "unit_cost": "$20.53" }
+        { "product_name": "Americano", "size": [
+            {"small": "$2.65",
+            "medium": "$3.15",
+            "large": "$3.60"}
+        ] },
+        { "product_name": "Americano Misto", "size": [
+            {"small": "$3.20",
+            "medium": "$3.70",
+            "large": "$4.15"}
+        ] },
+        { "product_name": "Cafe Latte", "size": [
+            {"small": "$3.55",
+            "medium": "$4.20",
+            "large": "$4.50"}
+        ] },
+        { "product_name": "Latte Macchiato", "size": [
+            {"small": "$3.95",
+            "medium": "$4.65",
+            "large": "$4.95"}
+        ] },
+        { "product_name": "Cappuccino", "size": [
+            {"small": "$3.55",
+            "medium": "$4.20",
+            "large": "$4.50"}
+        ] }
     ],
+
+    "Tim Hortons":[
+        {"product_name": "Original", "size": [
+            {"small": "$1.54",
+            "medium": "$1.86",
+            "large": "$2.02",
+            "XL": "$2.29"}
+        ]},
+
+        {"product_name": "Dark Roast", "size": [
+            {"small": "$1.54",
+            "medium": "$1.86",
+            "large": "$2.02",
+            "XL": "$2.29"}
+        ]},
+
+        {"product_name": "Decaf Dark Roast", "size": [
+            {"small": "$1.54",
+            "medium": "$1.86",
+            "large": "$2.02",
+            "XL": "$2.29"}
+        ]}
+
+    ],
+    "A&W":[
+        {"product_name": "Coffee", "size": [
+            {"small": "$1.53",
+            "medium": "$1.95",
+            "large": "$2.19"
+            }
+        ]}
+    ],
+
     "StarBucks":[
-        { "product_name": "Black Coffee", "unit_cost": "$10.47" },
-        { "product_name": "French Vanilla", "unit_cost": "$8.74" },
-        { "product_name": "Green Coffee", "unit_cost": "$20.53" }
+        { "product_name": "Caffe Misto", "size" : [{"small": "$3.25", "medium": "$3.45", "large": "$3.95", "XL": "$3.25"} ] },
+        { "product_name": "Decaf Pike Place Roast", "size" : [ {"small": "$2.35", "medium": "$2.45", "large": "$2.95", "XL": "$3.25"} ] },
+        { "product_name": "Starbucks True North", "size" : [ {"small": "$2.35", "medium": "$2.45", "large": "$2.95", "XL": "$3.25"} ] },
+        { "product_name": "Featured Dark Roast", "size" : [ {"small": "$2.35", "medium": "$2.45", "large": "$2.95", "XL": "$3.25"} ]},
+        { "product_name": "Pike Place Roast", "size" : [ {"small": "$2.35", "medium": "$2.45", "large": "$2.95", "XL": "$3.25"} ]},
+        { "product_name": "Caffe Americano", "size" : [ {"small": "$2.95", "medium": "$3.45", "large": "$3.95", "XL": "$4.35"} ]},
+        { "product_name": "Starbucks Blonde Caffee Americano", "size" : [ {"small": "$2.95", "medium": "$3.45", "large": "$3.95", "XL": "$4.35"} ]},
+        { "product_name": "Caffe Americano Misto ", "size" : [ {"small": "$3.95", "medium": "$4.35", "large": "$4.95", "XL": "$5.25"} ]},
+        { "product_name": "Irish Cream Americano", "size" : [ {"small": "$4.35", "medium": "$4.55", "large": "$5.15", "XL": "$5.75"} ]},
+        { "product_name": "Cappuccino", "size" : [ {"small": "$4.45", "medium": "$4.55", "large": "$5.15", "XL": "$5.75"} ]},
+        { "product_name": "Starbucks Blonde Cappuccino", "size" : [ {"small": "$4.45", "medium": "$4.55", "large": "$5.15", "XL": "$5.75"} ]},
+        { "product_name": "Flat White", "size" : [ {"small": "$4.95", "medium": "$5.15", "large": "$5.75", "XL": "$6.25"} ]},
+        { "product_name": "Starbucks Blonde Flat White", "size" : [ {"small": "$4.95", "medium": "$5.15", "large": "$5.75", "XL": "$6.25"} ]},
+        { "product_name": "Almondmilk Honey Flat White", "size" : [ {"small": "$5.95", "medium": "$5.95", "large": "$6.65", "XL": "$7.25"} ]},
+        { "product_name": "Almondmilk Honey Flat White with Starbucks Blonde Espresso", "size" : [ {"small": "$5.95", "medium": "$5.95", "large": "$6.65", "XL": "$7.25"} ]},
+        { "product_name": "Caffe Latte", "size" : [ {"small": "$4.45", "medium": "4.55", "large": "5.15", "XL": "5.75"} ]},
+        { "product_name": "Cinnamon Dolce Latte", "size" : [ {"small": "$4.95", "medium": "5.15", "large": "5.75", "XL": "6.25"} ]},
+        { "product_name": "Starbucks Blonde Caffe Latte", "size" : [ {"small": "$4.45", "medium": "4.55", "large": "5.15", "XL": "5.75"} ]},
+        { "product_name": "Starbucks Blonde Vanilla Latte", "size" : [ {"small": "$4.95", "medium": "5.15", "large": "5.75", "XL": "6.25"} ]},
+        { "product_name": "Starbucks Blonde Hazelnut Latte ", "size" : [ {"small": "$4.95", "medium": "5.15", "large": "5.75", "XL": "6.25"} ]},
+        { "product_name": "Caramel Brule Latte", "size" : [ {"small": "$5.15", "medium": "$5.35", "large": "$5.95", "XL": "$6.55"} ]},
+        { "product_name": "Gingerbread Latte", "size" : [ {"small": "$5.15", "medium": "$5.35", "large": "$5.95", "XL": "$6.55"} ]},
+        { "product_name": "Starbucks Blonde Caramel Brule Latte", "size" : [ {"small": "$5.15", "medium": "$5.35", "large": "$5.95", "XL": "$6.55"} ]},
+        { "product_name": "Coconutmilk Latte with Starbucks Blonde Espresso", "size" : [ {"small": "$5.15", "medium": "$5.35", "large": "$5.95", "XL": "$6.55"} ]},
+        { "product_name": "Smoked ButterScotch Latte", "size" : [ {"small": "$5.15", "medium": "$5.35", "large": "$5.95", "XL": "$6.55"} ]},
+        { "product_name": "Caramel Macchiato", "size" : [ {"small": "$4.95", "medium": "5.15", "large": "5.75", "XL": "6.25"} ]},
+        { "product_name": "Espresso Macchiato", "size" : [ {"small": "$2.75", "medium": "$2.95", "large": "$3.25", "XL": "$3.85"} ]},
+        { "product_name": "Starbucks Blonde Caramel Macchiato", "size" : [ {"small": "$4.95", "medium": "5.15", "large": "5.75", "XL": "6.25"} ]},
+        { "product_name": "Caffe Mocha", "size" : [ {"small": "$4.95", "medium": "5.15", "large": "5.75", "XL": "6.25"} ]},
+        { "product_name": "White Chocolate Mocha", "size" : [ {"small": "$4.95", "medium": "5.15", "large": "5.75", "XL": "6.25"} ]},
+        { "product_name": "Starbucks Blonde Salted Caramel Macchiato", "size" : [ {"small": "$5.15", "medium": "$5.35", "large": "$5.95", "XL": "$6.55"} ]},
+        { "product_name": "Salted Caramel Mocha", "size" : [ {"small": "$5.15", "medium": "$5.35", "large": "$5.95", "XL": "$6.55"} ]},
+        { "product_name": "Peppermint Mocha", "size" : [ {"small": "$5.15", "medium": "$5.35", "large": "$5.95", "XL": "$6.55"} ]},
+        { "product_name": "Peppermint White Chocolate Mocha", "size" : [ {"small": "$5.15", "medium": "$5.35", "large": "$5.95", "XL": "$6.55"} ]},
+        { "product_name": "Starbucks Blonde Peppermint Mocha", "size" : [ {"small": "$5.15", "medium": "$5.35", "large": "$5.95", "XL": "$6.55"} ]},
+        { "product_name": "Starbucks Blonde Peppermint White Chocolate Mocha", "size" : [ {"small": "$5.15", "medium": "$5.35", "large": "$5.95", "XL": "$6.55"} ]}
+
     ]
 
 }
