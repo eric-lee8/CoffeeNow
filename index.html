@@ -5,6 +5,7 @@
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
     <meta charset="utf-8">
     <link rel="stylesheet" href="map.css">
+    <script src="myScript.js"></script>
     <script src="mapScript.js"></script>
   </head>
   <body>
@@ -14,12 +15,11 @@
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAw2DF1cSNchptcuUKOxdENZUGtRPqFcl8&callback=initMap">
     </script>
 
-  <div class="formBox">
-    <label for="store_name">Store: </label><input type="text" id="store_name" name="store_name"><br><br>
-    <label for="coffee_name">Coffee: </label><input type="text" id="coffee_name" name="coffee_name"><br><br>
-    <label for="price">Price: </label><input type="text" id="price" name="price"><br><br>
-    <button type="button" onclick="displaycoffee()"> Find! </button>
+  <div class="formBox"><label for="store_name">Store: </label><label type="text" id="store_name" name="store_name"></label><br><br>
+    <label for="coffee_name">Coffee: </label><label type="text" id="coffee_name" name="coffee_name"></label><br><br>
+    <label for="price">Price: </label><label type="text" id="price" name="price"></label><br><br>
+    <button type="button" id= "set1" onclick="displayCoffee()"> Pre-Set1 </button>
+    <button type="button" id= "set2" onclick="displayCoffee()"> Pre-Set2 </button>
   </div>
-
   </body>
 </html>
